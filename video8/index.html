@@ -1,14 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <title>video8</title>
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: black;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    video {
+      width: 100vw;
+      height: 100vh;
+      object-fit: contain;
+      background: black;
+    }
+  </style>
 </head>
+
 <body>
-
-<video controls>
-  <source src="video8.mp4" type="video/mp4">
-</video>
-
+  <video controls autoplay>
+    <source src="video8.mp4" type="video/mp4">
+    Tu navegador no soporta video.
+  </video>
 </body>
 </html>
+
